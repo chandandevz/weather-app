@@ -121,3 +121,10 @@ form input::placeholder {
 .popup h2{
     text-align: center;
 }
+
+@media screen and (max-width: 460px)
+{
+    body{
+        padding-inline: 16px;
+    }
+}
