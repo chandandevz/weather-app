@@ -89,7 +89,7 @@ form input::placeholder {
     position: absolute;
     top: 50%;
     transform: translatey(-50%);
-    background-color: rgb(216, 106, 3);
+    background-color: rgba(216, 106, 3, 0.6);
     color: white;
     width: 600px;
     padding-block: 120px;
