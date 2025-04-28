@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open sans";
+}
+
+body {
+    background-image: linear-gradient(180deg, #2f00d9, #0099ff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    /* height: 100vh; */
+}
+
+.container {
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.113);
+    max-width: 700px;
+    margin-inline: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 148px;
+    border-radius: 12px;
+    gap: 16px;
+
+
+    /* background-color: rgba(255, 255, 255, 0.524); */
+}
+
+.condition-icon {
+    width: 120px;
+}
+
+#temperature {
+    font-size: 60px;
+}
+
+.temp-container {
+    display: flex;
+    gap: 12px;
+}
+
+.condition-icon img {
+    width: 100%;
+}
+
+.country-container p {
+    font-size: 12px;
+}
+
+#condition {
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+form input, button {
+    border: none;
+    outline: 0.5px solid white;
+    padding: 6px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(228, 228, 228);
+    /* color: white; */
+}
+
+form input {
+    background-color: transparent;
+    text-align: center;
+    color: white;
+}
+
+form input::placeholder {
+    color: white;
+}
+
+.popup{
+    position: absolute;
+    top: 50%;
+    transform: translatey(-50%);
+    background-color: rgb(216, 106, 3);
+    color: white;
+    width: 600px;
+    padding-block: 120px;
+    border-radius: 12px;
+    display: none;
+    cursor: pointer;
+    /* padding: 200px 300px ; */
+}
+
+.popup p{
+    position: absolute;
+    top: 16px;
+    right: 22px;
+    font-size: 32px;
+    transition: 0.1s ease-in-out;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.popup p:hover{
+    transform: scale(1.04);
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+.popup h2{
+    text-align: center;
+}
